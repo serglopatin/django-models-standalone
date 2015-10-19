@@ -1,0 +1,3 @@
+recursive-include django_models_standalone *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
