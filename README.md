@@ -1,5 +1,7 @@
 # django-models-standalone 
 
+This is just wrapper package on top of django framework, which creates django project with only standalone modules included.
+
 ## Howto
 **1.** install django-models-standalone: 
 
@@ -24,3 +26,7 @@ python manage.py migrate
 ```
 python example.py
 ```
+
+## TODO
+
+Need to add django dependency check to setup.py
