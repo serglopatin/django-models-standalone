@@ -11,8 +11,6 @@ def show_usage():
 
 def execute_from_command_line():
 
-	print os.path.abspath(os.path.dirname(__file__))
-
 	if len(sys.argv) < 3:
 		show_usage()
 		sys.exit(1)
@@ -32,9 +30,3 @@ def execute_from_command_line():
 
 	return
 
-if __name__=="__main__":
-
-	#os.chdir(os.path.abspath(os.path.dirname(__file__)))
-
-	sys.argv = ["test", "startproject", "haha"]
-	execute_from_command_line()

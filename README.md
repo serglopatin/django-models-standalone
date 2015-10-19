@@ -11,11 +11,10 @@
 
 **3.** migrate
 
-`cd myproject`
-
-`python manage.py migrate`
+```cd myproject
+python manage.py migrate```
 
 **4.** run application with standalone django models:
 
-`cd myproject
-python example.py`
+```cd myproject
+python example.py```
