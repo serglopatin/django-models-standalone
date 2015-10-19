@@ -7,18 +7,20 @@
 
 **2.** create standalone django models project:
 
-`django-models-standalone startproject myproject`
+```
+cd ~
+django-models-standalone startproject myproject
+cd ~\myproject
+```
 
 **3.** migrate
 
 ```
-cd myproject
 python manage.py migrate
 ```
 
 **4.** run application with standalone django models:
 
 ```
-cd myproject
 python example.py
 ```
