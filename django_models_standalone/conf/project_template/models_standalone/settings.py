@@ -4,6 +4,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = '{{ secret_key }}'
 
+# WARNING: when DEBUG is True, don't forget to reset db connection to avoid memory leaks in your standalone app!
+DEBUG = True
+
 INSTALLED_APPS = (
         "models_standalone",
 )
